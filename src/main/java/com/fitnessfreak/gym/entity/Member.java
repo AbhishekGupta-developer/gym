@@ -1,13 +1,13 @@
-package com.fitnesfreak.gym.dto;
+package com.fitnessfreak.gym.entity;
 
-import com.fitnesfreak.gym.entity.Membership;
-import com.fitnesfreak.gym.enums.Gender;
+import com.fitnessfreak.gym.enums.Gender;
+import com.fitnessfreak.gym.enums.Membership;
 import lombok.Data;
 
 import java.util.Date;
 
 @Data
-public class MemberOutputDto {
+public class Member {
     private Long id;
     private String name;
     private Gender gender;
